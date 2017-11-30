@@ -30,7 +30,7 @@ SkyboxUtil 是一个使用 cocoapods 管理的插件化组件
 
   s.ios.deployment_target = '9.0'
 
-  #s.source_files = 'SkyboxUtil/Classes/**/*'
+s.source_files = 'SkyboxUtil/SkyboxUtil/Classes/*.{h,m}'
   
   # s.resource_bundles = {
   #   'SkyboxUtil' => ['SkyboxUtil/Assets/*.png']
