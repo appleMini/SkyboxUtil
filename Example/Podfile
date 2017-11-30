@@ -1,7 +1,8 @@
 use_frameworks!
 
 target 'SkyboxUtil_Example' do
-  pod 'SkyboxUtil', :path => '../'
+    #pod 'SkyboxUtil', :path => '../'
+    pod 'SkyboxUtil', :podspec => '../SkyboxUtil.podspec'
 
   target 'SkyboxUtil_Tests' do
     inherit! :search_paths

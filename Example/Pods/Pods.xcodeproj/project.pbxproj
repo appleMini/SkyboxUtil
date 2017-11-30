@@ -7,48 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0B91DFA8C5DAAA3FF2935C5847B93668 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		131D575EA3BF16DD23FF29212D662353 /* Pods-SkyboxUtil_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 089621AA3FD28F041375677E9E0709FE /* Pods-SkyboxUtil_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1C208AC1BA68C15FBCE843D95560BB59 /* SkyboxUtil-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AEE280D2E408919126B38763824039D /* SkyboxUtil-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2AE6DC667D48C599737BD7AD90893053 /* SkyboxUtil-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F0FFFC6C40217B3B4952F590F2C583F /* SkyboxUtil-dummy.m */; };
 		55DB761368F7117A549F418D698C6B18 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		58683AD46601B01B92829BABD66C1316 /* Pods-SkyboxUtil_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B4AE1DC26EF56D9F62DD9D9018FD492E /* Pods-SkyboxUtil_Tests-dummy.m */; };
-		B1D379DC1CB5A7E5FB871A8AF4F09A10 /* Pods-SkyboxUtil_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 64061A59FE5D0AD9B81B18D037771DB1 /* Pods-SkyboxUtil_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B603DEA812F270E1DDEAFF1A034B9ACF /* Pods-SkyboxUtil_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3085FD4FE4EF16CBF8760CD9209180EA /* Pods-SkyboxUtil_Example-dummy.m */; };
-		C931BB5096EDF1505ED974B7A301F80A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		6E278CFCD52C12AB5211660FF2BBC8BE /* Pods-SkyboxUtil_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 64061A59FE5D0AD9B81B18D037771DB1 /* Pods-SkyboxUtil_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B2033D935F74958CC70D3939EFE85970 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		BAC44A73719066ABC512B3E92746AA22 /* Pods-SkyboxUtil_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3085FD4FE4EF16CBF8760CD9209180EA /* Pods-SkyboxUtil_Example-dummy.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		AC94ECFA0F3CBDFF83914DF28692FE7A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = AB6039D0F60476602A263A5012A0A264;
-			remoteInfo = SkyboxUtil;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0122701BD460718FE1D71796895AAB45 /* Pods-SkyboxUtil_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SkyboxUtil_Tests-resources.sh"; sourceTree = "<group>"; };
 		089621AA3FD28F041375677E9E0709FE /* Pods-SkyboxUtil_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SkyboxUtil_Tests-umbrella.h"; sourceTree = "<group>"; };
 		0ACD0975EB577F5FA608262F08CAB68F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0AEE280D2E408919126B38763824039D /* SkyboxUtil-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SkyboxUtil-umbrella.h"; sourceTree = "<group>"; };
 		28588933562C84D05232328B93CCBEF8 /* Pods-SkyboxUtil_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SkyboxUtil_Example-frameworks.sh"; sourceTree = "<group>"; };
 		3085FD4FE4EF16CBF8760CD9209180EA /* Pods-SkyboxUtil_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SkyboxUtil_Example-dummy.m"; sourceTree = "<group>"; };
 		341DF2C3122D290EF0BD3E5E5A15BE26 /* Pods-SkyboxUtil_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SkyboxUtil_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		49DC55D6C28D564FBA750F80111DFDD3 /* Pods-SkyboxUtil_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SkyboxUtil_Example-resources.sh"; sourceTree = "<group>"; };
-		571A7B5318D2787D0624285577CEA517 /* Pods_SkyboxUtil_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SkyboxUtil_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		58E213B6AB404F30570B393E9F56433F /* Pods_SkyboxUtil_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SkyboxUtil_Tests.framework; path = "Pods-SkyboxUtil_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		64061A59FE5D0AD9B81B18D037771DB1 /* Pods-SkyboxUtil_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SkyboxUtil_Example-umbrella.h"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		724C17EAA1F3222076494629F4FF296A /* Pods-SkyboxUtil_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SkyboxUtil_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		7CE6D0E87E880C716C8C8E2B21BB0E02 /* Pods_SkyboxUtil_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SkyboxUtil_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		864788E6B71DF5C6E3A1880419E8C487 /* SkyboxUtil-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SkyboxUtil-prefix.pch"; sourceTree = "<group>"; };
 		89E4188ACF548DE0347C3576489B3CD5 /* Pods-SkyboxUtil_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SkyboxUtil_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		8C2471195419F1FAA85FF73C4E49F828 /* Pods-SkyboxUtil_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SkyboxUtil_Example.modulemap"; sourceTree = "<group>"; };
-		8F0FFFC6C40217B3B4952F590F2C583F /* SkyboxUtil-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SkyboxUtil-dummy.m"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		975AC979BD073078E7B40D2BB026A214 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A04937F50D7577E45E59AB0712BD5DA9 /* SkyboxUtil.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SkyboxUtil.modulemap; sourceTree = "<group>"; };
+		8C2471195419F1FAA85FF73C4E49F828 /* Pods-SkyboxUtil_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SkyboxUtil_Example.modulemap"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A8569C9E1C973871D84E15034F871212 /* Pods-SkyboxUtil_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SkyboxUtil_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		B4596105E05E96072B9ABE39B845B650 /* Pods-SkyboxUtil_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SkyboxUtil_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		B4AE1DC26EF56D9F62DD9D9018FD492E /* Pods-SkyboxUtil_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SkyboxUtil_Tests-dummy.m"; sourceTree = "<group>"; };
@@ -56,10 +37,9 @@
 		C05370E41BE2DF706CB3D058A89E3CB8 /* Pods-SkyboxUtil_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SkyboxUtil_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		C0B0E80731039187FCE002301758FA91 /* Pods-SkyboxUtil_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SkyboxUtil_Example.release.xcconfig"; sourceTree = "<group>"; };
 		C6B7A257B184F6CFF32EC2AA67F928C5 /* Pods-SkyboxUtil_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SkyboxUtil_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		CF1279C6E777C683B55F4067CE90CBA3 /* SkyboxUtil.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SkyboxUtil.xcconfig; sourceTree = "<group>"; };
-		D2FA5B8276C00E16723AE3E55C3F738D /* Pods-SkyboxUtil_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SkyboxUtil_Tests.modulemap"; sourceTree = "<group>"; };
+		D2FA5B8276C00E16723AE3E55C3F738D /* Pods-SkyboxUtil_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SkyboxUtil_Tests.modulemap"; sourceTree = "<group>"; };
 		E10160BDF76DEDD8443000F724F53F09 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F806E2ACD6DD528D04DE15A4DC19EA11 /* SkyboxUtil.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SkyboxUtil.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFA14E1BFE9AA4A55302EC610C2E4E4E /* Pods_SkyboxUtil_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SkyboxUtil_Example.framework; path = "Pods-SkyboxUtil_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,25 +51,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E4A9D5698518624B9650682FB68A99C5 /* Frameworks */ = {
+		C7CA339B7144DBCFE7D632FCD6EB1884 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0B91DFA8C5DAAA3FF2935C5847B93668 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F5D95B28AA077BFF3500BA2EC590983A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C931BB5096EDF1505ED974B7A301F80A /* Foundation.framework in Frameworks */,
+				B2033D935F74958CC70D3939EFE85970 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		14199310653E017154E180B33C649B18 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EFA14E1BFE9AA4A55302EC610C2E4E4E /* Pods_SkyboxUtil_Example.framework */,
+				58E213B6AB404F30570B393E9F56433F /* Pods_SkyboxUtil_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		2E58B1416ECE86F2DACF54E7DD3AC871 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -99,32 +80,13 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		58640962F4D3B4699CFE10BF6DDBCBE9 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				7CE6D0E87E880C716C8C8E2B21BB0E02 /* Pods_SkyboxUtil_Example.framework */,
-				571A7B5318D2787D0624285577CEA517 /* Pods_SkyboxUtil_Tests.framework */,
-				F806E2ACD6DD528D04DE15A4DC19EA11 /* SkyboxUtil.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		6C6DE0CC847A2EA0AF1968E5C4FFF6EB /* SkyboxUtil */ = {
-			isa = PBXGroup;
-			children = (
-				D46A5BD7A07539BC8BD4B554C8CC3CBB /* Support Files */,
-			);
-			name = SkyboxUtil;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				E98BC73F63304210D105822678E6CB4D /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				58640962F4D3B4699CFE10BF6DDBCBE9 /* Products */,
+				E5DE925CC08AE702848B1791553F7675 /* Pods */,
+				14199310653E017154E180B33C649B18 /* Products */,
 				2E58B1416ECE86F2DACF54E7DD3AC871 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -145,6 +107,14 @@
 			);
 			name = "Pods-SkyboxUtil_Example";
 			path = "Target Support Files/Pods-SkyboxUtil_Example";
+			sourceTree = "<group>";
+		};
+		B7D2C730FA6B3811FFCE0E7A3E275AE7 /* SkyboxUtil */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = SkyboxUtil;
+			path = SkyboxUtil;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -181,44 +151,22 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		D46A5BD7A07539BC8BD4B554C8CC3CBB /* Support Files */ = {
+		E5DE925CC08AE702848B1791553F7675 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				975AC979BD073078E7B40D2BB026A214 /* Info.plist */,
-				A04937F50D7577E45E59AB0712BD5DA9 /* SkyboxUtil.modulemap */,
-				CF1279C6E777C683B55F4067CE90CBA3 /* SkyboxUtil.xcconfig */,
-				8F0FFFC6C40217B3B4952F590F2C583F /* SkyboxUtil-dummy.m */,
-				864788E6B71DF5C6E3A1880419E8C487 /* SkyboxUtil-prefix.pch */,
-				0AEE280D2E408919126B38763824039D /* SkyboxUtil-umbrella.h */,
+				B7D2C730FA6B3811FFCE0E7A3E275AE7 /* SkyboxUtil */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/SkyboxUtil";
-			sourceTree = "<group>";
-		};
-		E98BC73F63304210D105822678E6CB4D /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				6C6DE0CC847A2EA0AF1968E5C4FFF6EB /* SkyboxUtil */,
-			);
-			name = "Development Pods";
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		5A858CFD039D7B8D64A3510B7108015E /* Headers */ = {
+		30E8D1F2551146546BC48D9BD2290AF0 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1C208AC1BA68C15FBCE843D95560BB59 /* SkyboxUtil-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		733AEFE651959D9BC10EF6B19FB0BA1A /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B1D379DC1CB5A7E5FB871A8AF4F09A10 /* Pods-SkyboxUtil_Example-umbrella.h in Headers */,
+				6E278CFCD52C12AB5211660FF2BBC8BE /* Pods-SkyboxUtil_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -233,39 +181,21 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		A72E9F11DF097562F0AD363BEBD8129B /* Pods-SkyboxUtil_Example */ = {
+		624FD3BB45C41BC085C9FAF5CC917B70 /* Pods-SkyboxUtil_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 991F11DB9904B96F7B43C0DFCC3323E0 /* Build configuration list for PBXNativeTarget "Pods-SkyboxUtil_Example" */;
+			buildConfigurationList = B40505238B7D19D93DEACCD08B1616FC /* Build configuration list for PBXNativeTarget "Pods-SkyboxUtil_Example" */;
 			buildPhases = (
-				31367D6CAC835B21BABDE9775E42ADE8 /* Sources */,
-				F5D95B28AA077BFF3500BA2EC590983A /* Frameworks */,
-				733AEFE651959D9BC10EF6B19FB0BA1A /* Headers */,
+				93DAFA34E8BF04B9B924F491B50F9D3E /* Sources */,
+				C7CA339B7144DBCFE7D632FCD6EB1884 /* Frameworks */,
+				30E8D1F2551146546BC48D9BD2290AF0 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				CCF0CFA40F308759727F0546C354067A /* PBXTargetDependency */,
 			);
 			name = "Pods-SkyboxUtil_Example";
 			productName = "Pods-SkyboxUtil_Example";
-			productReference = 7CE6D0E87E880C716C8C8E2B21BB0E02 /* Pods_SkyboxUtil_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		AB6039D0F60476602A263A5012A0A264 /* SkyboxUtil */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 0994F7BB8B8A5FCCC595DBE37965CDF9 /* Build configuration list for PBXNativeTarget "SkyboxUtil" */;
-			buildPhases = (
-				B1D2FB76950346912A43257964103A7D /* Sources */,
-				E4A9D5698518624B9650682FB68A99C5 /* Frameworks */,
-				5A858CFD039D7B8D64A3510B7108015E /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = SkyboxUtil;
-			productName = SkyboxUtil;
-			productReference = F806E2ACD6DD528D04DE15A4DC19EA11 /* SkyboxUtil.framework */;
+			productReference = EFA14E1BFE9AA4A55302EC610C2E4E4E /* Pods_SkyboxUtil_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		CF68ECE79DB88B1CD320554BD35E2FA7 /* Pods-SkyboxUtil_Tests */ = {
@@ -282,7 +212,7 @@
 			);
 			name = "Pods-SkyboxUtil_Tests";
 			productName = "Pods-SkyboxUtil_Tests";
-			productReference = 571A7B5318D2787D0624285577CEA517 /* Pods_SkyboxUtil_Tests.framework */;
+			productReference = 58E213B6AB404F30570B393E9F56433F /* Pods_SkyboxUtil_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -302,26 +232,17 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 58640962F4D3B4699CFE10BF6DDBCBE9 /* Products */;
+			productRefGroup = 14199310653E017154E180B33C649B18 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A72E9F11DF097562F0AD363BEBD8129B /* Pods-SkyboxUtil_Example */,
+				624FD3BB45C41BC085C9FAF5CC917B70 /* Pods-SkyboxUtil_Example */,
 				CF68ECE79DB88B1CD320554BD35E2FA7 /* Pods-SkyboxUtil_Tests */,
-				AB6039D0F60476602A263A5012A0A264 /* SkyboxUtil */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		31367D6CAC835B21BABDE9775E42ADE8 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B603DEA812F270E1DDEAFF1A034B9ACF /* Pods-SkyboxUtil_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		4EF2249BDC2DB8F45040FC74F9B8A44B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -330,24 +251,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B1D2FB76950346912A43257964103A7D /* Sources */ = {
+		93DAFA34E8BF04B9B924F491B50F9D3E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2AE6DC667D48C599737BD7AD90893053 /* SkyboxUtil-dummy.m in Sources */,
+				BAC44A73719066ABC512B3E92746AA22 /* Pods-SkyboxUtil_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		CCF0CFA40F308759727F0546C354067A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SkyboxUtil;
-			target = AB6039D0F60476602A263A5012A0A264 /* SkyboxUtil */;
-			targetProxy = AC94ECFA0F3CBDFF83914DF28692FE7A /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */ = {
@@ -407,6 +319,38 @@
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		4B1BFFC8D0C7F3F4A1F063D32F4F9213 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6B7A257B184F6CFF32EC2AA67F928C5 /* Pods-SkyboxUtil_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SkyboxUtil_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SkyboxUtil_Example/Pods-SkyboxUtil_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SkyboxUtil_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
@@ -530,66 +474,7 @@
 			};
 			name = Release;
 		};
-		A2A39360CB02E3980A7F55676BBA45DA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CF1279C6E777C683B55F4067CE90CBA3 /* SkyboxUtil.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SkyboxUtil/SkyboxUtil-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SkyboxUtil/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SkyboxUtil/SkyboxUtil.modulemap";
-				PRODUCT_NAME = SkyboxUtil;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		A60ABAB1447696208E0B8F0897B76980 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CF1279C6E777C683B55F4067CE90CBA3 /* SkyboxUtil.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SkyboxUtil/SkyboxUtil-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SkyboxUtil/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SkyboxUtil/SkyboxUtil.modulemap";
-				PRODUCT_NAME = SkyboxUtil;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		D21F6B57137337D9F986751F123DB1F8 /* Release */ = {
+		D3FBC5D7673CDE423034BC752233B102 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C0B0E80731039187FCE002301758FA91 /* Pods-SkyboxUtil_Example.release.xcconfig */;
 			buildSettings = {
@@ -622,50 +507,9 @@
 			};
 			name = Release;
 		};
-		F1249E6C67B3CE6772650393B4751C4F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C6B7A257B184F6CFF32EC2AA67F928C5 /* Pods-SkyboxUtil_Example.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-SkyboxUtil_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SkyboxUtil_Example/Pods-SkyboxUtil_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_SkyboxUtil_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0994F7BB8B8A5FCCC595DBE37965CDF9 /* Build configuration list for PBXNativeTarget "SkyboxUtil" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A2A39360CB02E3980A7F55676BBA45DA /* Debug */,
-				A60ABAB1447696208E0B8F0897B76980 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -675,11 +519,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		991F11DB9904B96F7B43C0DFCC3323E0 /* Build configuration list for PBXNativeTarget "Pods-SkyboxUtil_Example" */ = {
+		B40505238B7D19D93DEACCD08B1616FC /* Build configuration list for PBXNativeTarget "Pods-SkyboxUtil_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F1249E6C67B3CE6772650393B4751C4F /* Debug */,
-				D21F6B57137337D9F986751F123DB1F8 /* Release */,
+				4B1BFFC8D0C7F3F4A1F063D32F4F9213 /* Debug */,
+				D3FBC5D7673CDE423034BC752233B102 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

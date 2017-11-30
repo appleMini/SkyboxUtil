@@ -2,15 +2,15 @@ PODS:
   - SkyboxUtil (0.1.0)
 
 DEPENDENCIES:
-  - SkyboxUtil (from `../`)
+  - SkyboxUtil (from `../SkyboxUtil.podspec`)
 
 EXTERNAL SOURCES:
   SkyboxUtil:
-    :path: ../
+    :podspec: ../SkyboxUtil.podspec
 
 SPEC CHECKSUMS:
-  SkyboxUtil: fa526a79e9b77bd5831c764abd26f723f708ac13
+  SkyboxUtil: 73e9dfe3a7aa7c9fde32e1e868425b54bba9cdac
 
-PODFILE CHECKSUM: 67c70c7fac1598b82db5747f914ddc20e12f1ae2
+PODFILE CHECKSUM: d89f3b3b2db100a0095484cb933f5b6de14778ad
 
 COCOAPODS: 1.3.1
