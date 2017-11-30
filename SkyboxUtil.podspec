@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-模块化开发组件
+   模块化开发组件, 使用 cocoapods 进行模块化guan'li
                        DESC
 
   s.homepage         = 'https://github.com/appleMini/SkyboxUtil'
@@ -30,13 +30,14 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'SkyboxUtil/Classes/**/*'
-  
+  #s.source_files = 'SkyboxUtil/Classes/**/*'
+    s.source_files = 'Pod/Classes/**/*'
+
   # s.resource_bundles = {
   #   'SkyboxUtil' => ['SkyboxUtil/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+  s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
