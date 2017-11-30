@@ -1,0 +1,22 @@
+{
+  "name": "SkyboxUtil",
+  "version": "0.1.0",
+  "summary": "A short description of SkyboxUtil.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/appleMini/SkyboxUtil",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "appleMini": "s1298web@163.com"
+  },
+  "source": {
+    "git": "https://github.com/appleMini/SkyboxUtil.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SkyboxUtil/Classes/**/*"
+}
