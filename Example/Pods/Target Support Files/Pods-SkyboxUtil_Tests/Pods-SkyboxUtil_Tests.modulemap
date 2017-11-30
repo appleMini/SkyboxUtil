@@ -1,0 +1,6 @@
+framework module Pods_SkyboxUtil_Tests {
+  umbrella header "Pods-SkyboxUtil_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
